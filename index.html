@@ -4,9 +4,82 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="Imagens/controle.png"> 
         <title>Ínicio - NerdGames</title>
     </head>
     <body>
-        <h1>Meus Games</h1>
+        <div class="container">
+            <nav class="navbar navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">NerdGames</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">NerdGames</h5>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="index.html">Ínicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="jogos.html">Jogos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Lista
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="Configurações.html">Configurações</a></li>
+                            <li><a class="dropdown-item" href="#">Dúvidas</a></li>
+                            <li>
+                              <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Créditos</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Pesquisar</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        <h1 id="Dieimes">Bem-vindo a NerdGames</h1>
+        <img class="imagens1" src="Imagens/unnamed.png">
+        <h1>VideoGames do Momento!!!</h1>
+        <h2>Alguns videogames do momento são:</h2>
+        <div class="card-group">
+            <div class="card">
+              <img src="Imagens/Xbox.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Xbox Series X</h5>
+                <p class="card-text">A unidade gráfica de processamento, ou GPU, é o microprocessador que mostra as imagens em qualquer tela. No Xbox Series X ele tem 12 teraflops de potência, o dobro da quantidade que tá no modelo anterior! Uau!   </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="Imagens/ps5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">PS5</h5>
+                <p class="card-text">O PlayStation (PS5) teve detalhes das suas especificações revelados pela Sony na última quarta-feira (18). Na apresentação, o arquiteto-chefe do PS5, Mike Cerny, detalhou as novas peças que compõem o console, como o processador, placa de vídeo, memória e armazenamento por SSD. No entanto, design, preço e data de lançamento do videogame ainda permanecem um mistério. Confira como o PlayStation 5 se sai ao ser colocado lado a lado com seu antecessor PlayStation 4 (PS4). Veja as diferenças e semelhanças entre eles no comparativo a seguir.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="Imagens/pcgamer.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">PC Gamer</h5>
+                <p class="card-text">A potência de um PC Gamer varia de acordo com as peças e configurações que o dono consiga comprar, os pc's mais caros costumam ser mais potentes, normalmente um pc é a melhor opção devido a grande possibilidade e variedade de jogos.</p>
+              </div>
+            </div>
+          </div>
+    </div>
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </html>
